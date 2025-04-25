@@ -1,0 +1,18 @@
+# Ignore generated kubeconfig files (they contain sensitive tokens)
+*kubeconfig*.yaml
+*kubeconfig*.yml
+
+# Ignore any files with 'token' in the name that aren't templates
+*token*.yaml
+!user-sa-token-secret.yaml
+
+# Common OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Ignore any backup files
+*.bak
+*.backup

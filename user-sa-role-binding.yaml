@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: user-full-access-binding
+  namespace: your-namespace
+subjects:
+- kind: ServiceAccount
+  name: user-sa
+  namespace: your-namespace
+roleRef:
+  kind: Role
+  name: user-full-access
+  apiGroup: rbac.authorization.k8s.io
