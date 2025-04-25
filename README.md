@@ -28,6 +28,10 @@ These templates demonstrate how to create service accounts with limited permissi
    kubectl --kubeconfig=kubeconfig.yaml get pods -n your-namespace
    ```
 
+## References
+
+- [Limited Kubeconfigs Guide](https://codeforphilly.github.io/chime/operations/limited-kubeconfigs/limited-kubeconfigs.html)
+
 ## What This Does
 
 This setup creates:
