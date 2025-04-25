@@ -41,17 +41,6 @@ This setup creates:
 4. A token secret for the service account
 5. A kubeconfig file that uses the token for authentication
 
-## Security Notes
-
-- **IMPORTANT**: Before making this repo public, ensure you have removed all sensitive information:
-  - Replace all specific URLs, IP addresses, and server details with placeholder values
-  - Remove any actual tokens, certificates, or credentials
-  - Replace all personal or organization identifiers with generic names
-  
-- The generated kubeconfig grants permissions only within the specified namespace. The service account won't have access to other namespaces.
-
-- **DO NOT commit actual kubeconfig files with tokens to this repository!** Always add generated kubeconfig files to your `.gitignore`.
-
 ## Customization
 
 Edit the template files and replace the placeholder values:
